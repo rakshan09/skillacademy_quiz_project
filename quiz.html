@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <header class="time-scor">
+            <div class="timer" id="timer">Time: 0s</div>
+            <div class="score" id="score">Score: <strong>0</strong></div>
+        </header>
+        
+        <section id="quiz-section">
+            <!-- Quiz content will be inserted dynamically -->
+            <h3 id="question-number"></h3>
+            <p id="question-text"></p>
+            <div id="options" class="options-grid">
+                 <!-- Buttons will be dynamically inserted here -->
+            </div>
+            <button id="nextButton" onclick="nextQuestion()">Next Question</button>
+        </section>
+    </div>
+
+    <script src="quiz.js"></script>
+</body>
+</html>

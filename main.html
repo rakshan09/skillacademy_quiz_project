@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <section class="user-details">
+        <img src="testbook_logo.png" alt="testbook-logo" class="logo" />
+        <h1 class="heading">Hello User!</h1>
+        <p class="details">Enter your name to continue the Quiz.</p>
+        <input type="text" id="username" placeholder="ENTER YOUR NAME..." />
+        <button id="enterButton">Enter</button>
+        <p class="txt">You'll have 10 seconds to answer each questions</p>
+      </section>
+      <hr />
+      <section class="categories">
+        <h2>Select a Category</h2>
+        <div class="cate">
+            <button class="category-btn" onclick="selectCategory('Pipes and Cisterns')">Pipes and Cisterns</button>
+            <button class="category-btn" onclick="selectCategory('Probability')">Probability</button>
+            <button class="category-btn" onclick="selectCategory('Problems on Age')">Problems on Age</button>
+            <button class="category-btn" onclick="selectCategory('Profit and Loss')">Profit and Loss</button>
+        </div>
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

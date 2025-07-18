@@ -1,0 +1,5 @@
+--> There are 3 html pages created for 3 different style of pages given
+--> Only one css file is present as there was not much of styling in this website
+--> script.js contains most of the validation part
+-->quiz.js contains all the logic and start and selection logic
+-->result calculates the time and anwers/marks 
